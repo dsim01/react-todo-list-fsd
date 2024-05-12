@@ -1,4 +1,4 @@
-import { Todo } from '../../../entities/todo/types.ts';
+import { Todo } from '../../../entities/todo';
 
 type TodoListProps = {
   todos: Todo[];

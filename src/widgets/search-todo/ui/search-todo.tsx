@@ -1,9 +1,8 @@
 import { useMemo, useState } from 'react';
 
-import TodoContainer from '../../../features/todo/ui/todo-container.tsx';
-import TodoList from '../../../features/todo/ui/todo-list.tsx';
-import { useTodoList } from '../../../entities/todo/model/hooks.ts';
-import Search from '../../../features/search/ui/search.tsx';
+import { useTodoList } from '../../../entities/todo';
+import { Search } from '../../../features/search';
+import { TodoContainer, TodoList } from '../../../features/todo';
 
 export default function SearchTodo() {
   const [searchTerm, setSearchTerm] = useState('');

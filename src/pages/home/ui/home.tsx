@@ -1,6 +1,7 @@
-import { DefaultTodo, SearchTodo } from '../../../features/todo';
+import { SearchTodo } from '../../../widgets/search-todo';
+import { DefaultTodo } from '../../../widgets/default-todo';
 
-export default function IndexPage() {
+export default function Home() {
   return (
     <div>
       <div>

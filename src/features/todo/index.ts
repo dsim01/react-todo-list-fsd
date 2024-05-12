@@ -1,2 +1,2 @@
-export { default as DefaultTodo } from '../../widgets/default-todo/ui/default-todo.tsx';
-export { default as SearchTodo } from '../../widgets/search-todo/ui/search-todo.tsx';
+export { default as TodoContainer } from './ui/todo-container';
+export { default as TodoList } from './ui/todo-list';

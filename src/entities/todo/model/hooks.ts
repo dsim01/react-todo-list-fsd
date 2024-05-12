@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Todo } from '../types.ts';
 import { initialTodos } from './model.ts';
+import { Todo } from '../types.ts';
 
 export const useTodoList = () => {
   const [todos, setTodos] = useState<Todo[]>(initialTodos);

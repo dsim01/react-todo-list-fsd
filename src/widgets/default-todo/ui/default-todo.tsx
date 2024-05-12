@@ -1,6 +1,5 @@
-import TodoContainer from '../../../features/todo/ui/todo-container.tsx';
-import TodoList from '../../../features/todo/ui/todo-list.tsx';
-import { useTodoList } from '../../../entities/todo/model/hooks.ts';
+import { useTodoList } from '../../../entities/todo';
+import { TodoContainer, TodoList } from '../../../features/todo';
 
 export default function DefaultTodo() {
   const { todos, toggleTodo } = useTodoList();
